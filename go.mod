@@ -1,1 +1,1 @@
-module gitlab.com/fawad/csvreader
+module github.com/fhalim/csvreader
