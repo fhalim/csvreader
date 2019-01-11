@@ -32,7 +32,7 @@ func NewReader(ctx context.Context, reader io.Reader) (*Reader, error) {
 					return
 				}
 				if err != nil {
-					log.Fatal(err)
+					log.Println(err)
 					return
 				}
 				c <- toMap(header, record)
